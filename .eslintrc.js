@@ -1,35 +1,30 @@
 module.exports = {
-  parser: 'babel-eslint',
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-      modules: true,
-    },
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
   },
-  rules: {
-    indent: ['error', 2],
-    'class-methods-use-this': 0,
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jquery": true
   },
-  plugins: ['react', 'json'],
-  globals: {
-    document: true,
-    window: true,
-  },
-  extends: ['airbnb-base', 'plugin:react/recommended'],
-  settings: {
-    'import/resolver': {
-      'babel-module': {
-        root: ['./'],
-        alias: {
-          actions: './redux/actions',
-          assets: './assets',
-          components: './components',
-          configs: './configs',
-          lib: './lib',
-          reducers: './redux/reducers',
-        },
-      },
-    },
-  },
+  "rules": {
+    "quotes": 0,
+    "no-console": 1,
+    "no-debugger": 1,
+    "no-var": 1,
+    "semi": [1, "always"],
+    "no-trailing-spaces": 0,
+    "eol-last": 0,
+    "no-unused-vars": 0,
+    "no-underscore-dangle": 0,
+    "no-alert": 0,
+    "no-lone-blocks": 0
+  }
 };
