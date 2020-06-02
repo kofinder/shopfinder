@@ -25,18 +25,16 @@ export default ({ children, title = 'EcoShop' }) => (
       <meta name='availableLanguages' content='fr, en' />
     </Head>
 
-    <div className="container">
-      <div className="body bg-dark">
-        <Header>
-          <h1>hello world</h1>
-        </Header>
+    <div className="body bg-dark">
+      <Header>
+        <h1>hello world</h1>
+      </Header>
 
-        <div className="body">
-          { children }
-        </div>
-
-        <Footer />
+      <div className="body">
+        { children }
       </div>
+
+      <Footer />
     </div>
 
   </div>
