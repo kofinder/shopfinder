@@ -15,10 +15,10 @@ const Header = props => (
           </Link>
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="navbar-toggler"><span className="navbar-toggler-icon"></span></button>
           <div id="navbarSupportedContent" className="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
+            <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
                 <Link as="/instock-product" href='/instock-product'>
-                  <a href="#" class="nav-link">Instock Product <span className="sr-only">(current)</span></a>
+                  <a href="#" className="nav-link">Instock Product <span className="sr-only">(current)</span></a>
                 </Link>
               </li>
               <li className="nav-item">
@@ -34,7 +34,7 @@ const Header = props => (
               <li className="nav-item">
                 <Link as="/shopping-cart" href='/shopping-cart'>
                   <a className="nav-link">
-                    <img src={require("../../assets/images/shopping-cart.png")}/>
+                    <img src='/shoppingcart019.png' width="23" height="23"/>
                   </a>
                 </Link>
               </li>
