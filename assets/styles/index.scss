@@ -17,6 +17,34 @@ body {
   background-color: #f0f0f0;
 }
 
-.footer {
+.site-footer {
   padding: 20px 0;
+  color: #fff;
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    li {
+      padding: 10px 0;
+      margin-bottom: 5px;
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+      }
+    }
+  }
+  .copyright-text {
+    font-size: 14px;
+    color: #9e9a9a;
+    text-align: center;
+    a {
+      margin-left: 5px;
+      font-size: 16px;
+    }
+  }
+  .mymap {
+    border: 1px solid #ddd;
+    padding: 2px;
+    background: #fff;
+  }
 }

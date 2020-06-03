@@ -39,6 +39,7 @@
     "react": "^16.13.1",
     "react-bootstrap": "^0.30.7",
     "react-dom": "^16.13.1",
+    "react-google-maps": "^9.4.5",
     "react-if": "^2.1.0",
     "react-router": "^3.0.2",
     "responsive-loader": "^1.2.0",
