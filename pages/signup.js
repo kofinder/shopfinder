@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
 
-class AccountPage extends React.Component {
+class SignUpPage extends React.Component {
   render() {
     return (
       <Layout title={ 'Account' }>
@@ -26,4 +26,4 @@ class AccountPage extends React.Component {
   }
 }
 
-export default AccountPage;
+export default SignUpPage;

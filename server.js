@@ -37,6 +37,12 @@ app.prepare().then(() => {
   server.get('/account', (req, res) => {
     return app.render(req, res, '/account', req.query);
   });
+  server.get('/account/login', (req, res) => {
+    return app.render(req, res, '/login', req.query);
+  });
+  server.get('/account/signup', (req, res) => {
+    return app.render(req, res, '/signup', req.query);
+  });
 
   server.get('*', (req, res) => {
     return handle(req, res);

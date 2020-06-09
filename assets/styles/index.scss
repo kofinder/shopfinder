@@ -9,12 +9,61 @@ body {
   min-height: 100vh;
 }
 
-.header {
+// COMMON
+.bg-gray-light {
+  background-color: #f3f4f5;
 }
+
+.btn-green {
+  margin-right: 10px;
+  background-color: #28a745;
+  color: #fff;
+}
+.btn-accent {
+  background-color: #cba070;
+  color: #fff;
+}
+
 
 .body {
   min-height: 100vh;
   background-color: #f0f0f0;
+  .section-one {
+    .summary {
+      position: absolute;
+      top: 29%;
+      p {
+        color: #7b7b7b;
+        font-size: 24px;
+      }
+      .info-text {
+        font-size: 30px;
+      }
+      b {
+        color: #28a745;
+      }
+      .btn-control {
+        margin-top: 20px;
+      }
+    }
+
+  }
+  .section-three {
+    padding: 20px 0;
+    color: #fff;
+    .item {
+      display: flex;
+      padding: 20px;
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .section-account {
+    padding: 30px;
+    text-align: center;
+  }
 }
 
 .site-footer {
