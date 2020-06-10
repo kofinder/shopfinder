@@ -54,19 +54,3 @@ app.prepare().then(() => {
     console.log('Server ready on http://localhost:3000');
   });
 });
-
-
-
-  // server.get('/search', (req, res) => {
-  //   return app.render(req, res, '/search', req.query);
-  // });
-  //
-  // server.get('/artist/:id', (req, res) => {
-  //   const params = route('/artist/:id')(parse(req.url).pathname);
-  //   return app.render(req, res, '/artist', params);
-  // });
-  //
-  // server.get('/album/:id', (req, res) => {
-  //   const params = route('/album/:id')(parse(req.url).pathname);
-  //   return app.render(req, res, '/album', params);
-  // });
