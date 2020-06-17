@@ -3,7 +3,7 @@
 @import  "~bootstrap/scss/mixins/_breakpoints";
 @import  "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+@import "~react-input-range/lib/css/index.css";
 html,
 body {
   height:100%;
@@ -46,7 +46,6 @@ body {
         margin-top: 20px;
       }
     }
-
   }
   .section-three {
     padding: 20px 0;
@@ -68,6 +67,34 @@ body {
   .section-account {
     padding: 30px;
     text-align: center;
+  }
+  .instock {
+    .instock-content {
+      min-height: 100vh;
+      margin-bottom: 20px;
+      aside {
+        height: 100%;
+        .item {
+          margin-bottom: 20px;
+        }
+      }
+      .main {
+        background-color: #fff;
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-bottom: 20px;
+        min-height: 100vh;
+        .card {
+          width: 16rem;
+          margin-bottom: 10px;
+          float: left;
+          margin-right: 20px;
+          &:nth-child(3n) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
   }
 }
 

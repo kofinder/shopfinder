@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Header = props => (
   <div className="header">
     <div className="container">
-      <nav className="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
+      <nav className="navbar navbar-expand-lg py-3 navbar-dark bg-dark">
         <div className="container">
           <Link as="/" href='/'>
             <a className="navbar-brand">

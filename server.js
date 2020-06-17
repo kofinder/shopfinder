@@ -31,6 +31,12 @@ app.prepare().then(() => {
   server.get('/instock-product', (req, res) => {
     return app.render(req, res, '/instock', req.query);
   });
+
+  server.get('/instock-product/:slug', (req, res) => {
+    const params = route('/instock-product/:slug')(parse(req.url).pathname);
+    return app.render(req, res, '/product-detail', params);
+  });
+
   server.get('/customize-product', (req, res) => {
     return app.render(req, res, '/customize', req.query);
   });

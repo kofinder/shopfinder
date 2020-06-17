@@ -23,6 +23,7 @@ export default ({ children, title = 'EcoShop' }) => (
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta name='defaultLanguage' content='fr' />
       <meta name='availableLanguages' content='fr, en' />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css"/>
     </Head>
 
     <div className="bg-dark">
